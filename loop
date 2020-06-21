@@ -1,0 +1,11 @@
+mylist=[]
+while(1<2):
+    a=int(input("to add a no press 1,press 0 if you have completed the list  "))
+    if a == 1:
+        b=int(input("Enter the number to be added"))
+        mylist.append(b)
+    else:
+        break
+for x in mylist:
+    if(x>0):
+        print(x)
